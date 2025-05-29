@@ -4,6 +4,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/* popup JS */
+
+function openPopup(id) {
+	document.getElementById(id).style.display = 'flex';
+}
+function closePopup(id) {
+	document.getElementById(id).style.display = 'none';
+}
+
+
+/* main */
 (function($) {
 
 	var	$window = $(window),
