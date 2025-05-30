@@ -2299,4 +2299,10 @@ button,
 	margin-top: 0;
 }
 
+    /* basic HTML */
+    
+.hidden {
+  display: none;
+}
+
 
